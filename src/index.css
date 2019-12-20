@@ -7,7 +7,61 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+     border:solid white;
+  border-radius: 12px;
+}
+
+body{
+  text-align: center;
+  background-color: lightcyan;
+}
+
+footer{
+position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+a{
+  color:lightcoral;
+}
+.skills {
+  font-size: 1.2em;
+  font-weight: bold;
+ 
+  color: rgb(12, 1, 1);
+  text-align: center;
+  position: center;
+  border:solid white;
+  border-radius: 12px;
+  padding: 1em;
+  position: inherit;
+  background-color: lightcoral;
+}
+
+.skills-list {
+  text-align: center;
+  
+}
+
+.header {
+  font-size: 1.3em;
+  position: inherit;
+  text-align: center;
+  padding: .5em;
+   border:solid white;
+  border-radius: 12px;
+}
+.bottom-section {
+   font-size: 1em;
+  position: inherit;
+  text-align: center;
+  padding: .5em;
+   border:solid white;
+  border-radius: 12px;
 }
